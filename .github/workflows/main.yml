@@ -12,10 +12,10 @@ on:
     - cron: "50 9,21 * * *"
 
 env:
-  kernel_repository: PixelExperience-Devices/kernel_xiaomi_polaris
-  kernel_branch: thirteen
-  device: dipper
-  defconfig: dipper_defconfig
+  kernel_repository: https://github.com/pjgowtham/android_kernel_oneplus_sm8350
+  kernel_branch: lineage-20
+  device: lahaina
+  defconfig: vendor/lahaina-qgki_defconfig
   use_aosp_clang: false
   clang_version: 15
 
